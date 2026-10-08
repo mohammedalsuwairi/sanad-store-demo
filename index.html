@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="سَنَد — اختيارات دافئة وقطع مختارة بعناية لتجعل بيتك أقرب إليك."
+    />
+    <meta name="theme-color" content="#f8f6f1" />
+    <title>سَنَد | تفاصيل صغيرة، فرق كبير</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="announcement">
+      <p>توصيل مجاني للطلبات فوق ٢٥٠ ر.س <span>·</span> لمسة دافئة لكل زاوية</p>
+    </div>
+
+    <header class="site-header">
+      <div class="header-inner">
+        <button class="icon-button menu-toggle" type="button" aria-label="فتح القائمة" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" /></svg>
+        </button>
+        <a class="brand" href="#" aria-label="سَنَد، الصفحة الرئيسية">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M7 22.5 20 10l13 12.5v11H7z" /><path d="M16 33.5v-9h8v9M4 19.5 20 5l16 14.5" /></svg>
+          </span>
+          <span class="brand-name">سَنَد<small>للبيت حكاية</small></span>
+        </a>
+        <nav class="main-nav" aria-label="القائمة الرئيسية">
+          <a class="nav-link is-active" href="#home">الرئيسية</a>
+          <a class="nav-link" href="#products">تسوّق الآن</a>
+          <a class="nav-link" href="#story">حكايتنا</a>
+        </nav>
+        <div class="header-actions">
+          <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8" /><path d="m16 16 4.5 4.5" /></svg>
+            <input id="search-input" type="search" placeholder="ابحث عن قطعة..." aria-label="ابحث عن منتج" />
+          </label>
+          <button class="cart-button" id="open-cart" type="button" aria-label="افتح سلة التسوق">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.1 10.1a2 2 0 0 0 2 1.6h8.7a2 2 0 0 0 1.9-1.4L22 8H6" /><circle cx="10" cy="20" r="1" /><circle cx="18" cy="20" r="1" /></svg>
+            <span>السلة</span><span class="cart-count" id="cart-count" aria-live="polite">٠</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero page-shell" id="home">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="eyebrow-line"></span> بيتك، على ذوقك</span>
+          <h1>تفاصيل صغيرة،<br />فرق <span>كبير.</span></h1>
+          <p>قطع مختارة بعناية تضيف لبيتك دفءً يشبهك، وجمالاً تعيشه كل يوم.</p>
+          <a class="primary-button" href="#products">اكتشف مجموعتنا <span aria-hidden="true">←</span></a>
+          <div class="hero-note">
+            <div class="avatar-stack" aria-hidden="true">
+              <span>م</span><span>ل</span><span>ن</span>
+            </div>
+            <p><strong>+١٢٠٠</strong> بيت صار أدفأ مع سَنَد</p>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img
+            class="hero-image"
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
+            alt="غرفة معيشة هادئة بألوان طبيعية وديكور دافئ"
+          />
+          <div class="hero-image-wash"></div>
+          <div class="hero-caption">
+            <span class="caption-dot"></span>
+            <div><strong>مساحة تتنفس</strong><small>مجموعة الهدوء · ٢٠٢٦</small></div>
+          </div>
+          <div class="hero-stamp" aria-label="اختيارات صُنعت لتدوم">
+            <span>اختيارات</span><strong>تُصنع</strong><span>لتدوم ✳</span>
+          </div>
+        </div>
+        <div class="hero-pagination" aria-hidden="true"><span></span> ٠١ <i></i> ٠٣</div>
+      </section>
+
+      <section class="trust-strip" aria-label="مزايا التسوق">
+        <div class="trust-inner">
+          <div class="trust-item"><span class="trust-icon">✳</span><span><strong>اختيارات مدروسة</strong><small>جودة تحسّها من أول لمسة</small></span></div>
+          <div class="trust-item"><span class="trust-icon">⌂</span><span><strong>توصيل لكل المملكة</strong><small>نوصل الدفء لباب بيتك</small></span></div>
+          <div class="trust-item"><span class="trust-icon">↺</span><span><strong>استبدال سهل</strong><small>لأن راحتك أولويتنا</small></span></div>
+          <div class="trust-item"><span class="trust-icon">♡</span><span><strong>صُمم بحب</strong><small>تفاصيل تروي حكاية</small></span></div>
+        </div>
+      </section>
+
+      <section class="collection-section page-shell" id="products">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow"><span class="eyebrow-line"></span> اختياراتنا لك</span>
+            <h2>خلّ بيتك <span>يحكي.</span></h2>
+          </div>
+          <a class="text-link" href="#products">تصفّح كل القطع <span aria-hidden="true">←</span></a>
+        </div>
+        <div class="category-tabs" role="group" aria-label="تصفية المنتجات حسب الفئة">
+          <button class="category-tab is-selected" type="button" data-category="الكل" aria-pressed="true">كل القطع <span>٠٨</span></button>
+          <button class="category-tab" type="button" data-category="إضاءة" aria-pressed="false">إضاءة</button>
+          <button class="category-tab" type="button" data-category="نسيج" aria-pressed="false">نسيج</button>
+          <button class="category-tab" type="button" data-category="ديكور" aria-pressed="false">ديكور</button>
+          <button class="category-tab" type="button" data-category="أثاث" aria-pressed="false">أثاث</button>
+        </div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+        <p class="no-results" id="no-results" hidden>ما لقينا قطع تطابق بحثك. جرّب كلمة ثانية.</p>
+      </section>
+
+      <section class="story-section page-shell" id="story">
+        <div class="story-image-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1000&q=85"
+            alt="تفاصيل منزلية هادئة بألوان طبيعية"
+            loading="lazy"
+          />
+          <span class="story-image-label">بيوت تحسّها</span>
+        </div>
+        <div class="story-copy">
+          <span class="eyebrow"><span class="eyebrow-line"></span> حكاية سَنَد</span>
+          <h2>البيت مو جدران،<br />البيت <span>إحساس.</span></h2>
+          <p>نؤمن أن البيت الجميل ما يحتاج كثير؛ يحتاج قطع تشبهك، تفاصيل لها معنى، وأشياء تبقى قريبة من القلب. عشان كذا اخترنا لك كل قطعة وكأننا نختارها لبيوتنا.</p>
+          <a class="text-link" href="#products">تعرّف على اختياراتنا <span aria-hidden="true">←</span></a>
+        </div>
+      </section>
+
+      <section class="newsletter page-shell">
+        <div>
+          <span class="eyebrow">رسائل على مهل</span>
+          <h2>إلهام بسيط، كل فترة.</h2>
+          <p>نسخة تجريبية للعرض — لا نسجل أو نرسل أي بيانات.</p>
+        </div>
+        <div class="newsletter-notice" role="note">
+          <span aria-hidden="true">✳</span>
+          <span>الاشتراك غير مفعّل في هذه النسخة</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner page-shell">
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 40 40"><path d="M7 22.5 20 10l13 12.5v11H7z" /><path d="M16 33.5v-9h8v9M4 19.5 20 5l16 14.5" /></svg>
+          </span>
+          <span class="brand-name">سَنَد<small>للبيت حكاية</small></span>
+        </a>
+        <p>مساحات تشبهك، وقطع تعيش معك.</p>
+        <span class="footer-copy">© ٢٠٢٦ سَنَد · متجر تجريبي</span>
+      </div>
+    </footer>
+
+    <div class="cart-backdrop" id="cart-backdrop" hidden></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-modal="true" role="dialog" aria-hidden="true">
+      <div class="cart-header">
+        <div><span class="eyebrow">اختياراتك</span><h2 id="cart-title">سلة التسوق</h2></div>
+        <button class="icon-button close-cart" id="close-cart" type="button" aria-label="إغلاق السلة">×</button>
+      </div>
+      <div class="cart-items" id="cart-items"></div>
+      <div class="cart-footer">
+        <div class="cart-total"><span>المجموع</span><strong id="cart-total">٠ ر.س</strong></div>
+        <p>الدفع والتوصيل غير مفعّلين في هذا المتجر التجريبي.</p>
+        <button class="checkout-button" id="checkout-button" type="button">متابعة تجريبية <span aria-hidden="true">←</span></button>
+      </div>
+    </aside>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
